@@ -1,0 +1,13 @@
+version: "2"
+services:
+  proxy:
+    build: ./proxy
+    links:
+      - app
+    ports:
+      - "80:80"
+  app:
+    build: ./app
+    ports:
+      - "3000:3000"
+    command: npm start

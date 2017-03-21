@@ -1,0 +1,17 @@
+{
+  "name": "docker-nginx-node",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "6.6.0",
+    "npm": "3.10.8"
+  },
+  "dependencies": {
+    "body-parser": "1.13.2",
+    "express": "4.14.0",
+    "path": "0.12.7"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

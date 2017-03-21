@@ -1,0 +1,9 @@
+.DS_Store
+
+app/node_modules
+app/tmp/node_modules
+app/src/node_modules
+
+app/npm-debug.log
+app/tmp/npm-debug.log
+app/src/npm-debug.log
